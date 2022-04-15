@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NKryp.EventStore.Demo", "NKryp.EventStore.Demo\NKryp.EventStore.Demo.csproj", "{CDFC9F07-222A-4FD1-96C8-C7FD631CC328}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NKryp.EventStore.CosmosDb", "NKryp.EventStore.CosmosDb\NKryp.EventStore.CosmosDb.csproj", "{947FEF6A-B797-4E2F-8EBB-0DE32A65FAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{19563F01-15A2-42AC-86F7-6C2EC656FBA7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFC9F07-222A-4FD1-96C8-C7FD631CC328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFC9F07-222A-4FD1-96C8-C7FD631CC328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFC9F07-222A-4FD1-96C8-C7FD631CC328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFC9F07-222A-4FD1-96C8-C7FD631CC328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947FEF6A-B797-4E2F-8EBB-0DE32A65FAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947FEF6A-B797-4E2F-8EBB-0DE32A65FAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947FEF6A-B797-4E2F-8EBB-0DE32A65FAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947FEF6A-B797-4E2F-8EBB-0DE32A65FAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8094DA0A-6479-4EEE-B853-DC41654A7DC0}
+	EndGlobalSection
+EndGlobal
