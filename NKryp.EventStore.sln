@@ -10,9 +10,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{19563F01-15A2-42AC-86F7-6C2EC656FBA7}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		src\NKryp.EventStore.CosmosDb\NKryp.EventStore.CosmosDb.nuspec = src\NKryp.EventStore.CosmosDb\NKryp.EventStore.CosmosDb.nuspec
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NKryp.EventStore", "src\NKryp.EventStore\NKryp.EventStore.csproj", "{D318A936-3F1B-4F77-8CD3-E3A83F001B44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NKryp.EventStore", "src\NKryp.EventStore\NKryp.EventStore.csproj", "{D318A936-3F1B-4F77-8CD3-E3A83F001B44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

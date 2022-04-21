@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NKryp.EventStore.CosmosDb</id>
+    <version>0.0.2</version>
+    <title>NKryp.EventStore.CosmosDb</title>
+    <authors>nazarkryp</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/nazarkryp/eventstore-cosmosdb</projectUrl>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>EventStore CosmosDb</tags>
+  </metadata>
+</package>
