@@ -2,15 +2,26 @@
 <package >
   <metadata>
     <id>NKryp.EventStore.CosmosDb</id>
-    <version>0.0.2</version>
+    <version>0.0.4</version>
     <title>NKryp.EventStore.CosmosDb</title>
     <authors>nazarkryp</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/nazarkryp/eventstore-cosmosdb</projectUrl>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>$copyright$</copyright>
+    <description>.Net Library that allows easy implement event sourcing using CosmosDb</description>
+    <repository type="git" url="https://github.com/nazarkryp/eventstore-cosmosdb.git" branch="master" />
+    <releaseNotes></releaseNotes>
     <tags>EventStore CosmosDb</tags>
+    <readme>README.md</readme>
+    <dependencies>
+      <group targetFramework="netstandard2.1">
+        <dependency id="Microsoft.Azure.Cosmos" version="3.26.1" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="6.0.0" />
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" />
+      </group>    
+    </dependencies>
   </metadata>
+  <files>
+    <file src="..\..\README.md" />
+  </files>
 </package>

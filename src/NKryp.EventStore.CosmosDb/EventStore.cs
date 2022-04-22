@@ -229,15 +229,13 @@ namespace NKryp.EventStore.CosmosDb
 
                 return new EventStream(streamId, headerDocument.Version, events);
             }
-            catch (TypeNotFoundException ex)
+            catch (TypeNotFoundException)
             {
                 throw;
-                //throw new StreamDeserializationException(streamId, requestCharge, ex.Type, ex);
             }
-            catch (JsonDeserializationException ex)
+            catch (JsonDeserializationException)
             {
                 throw;
-                //throw new StreamDeserializationException(streamId, requestCharge, ex.Type, ex);
             }
         }
     }
